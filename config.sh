@@ -69,8 +69,6 @@ REPLACE="
 # Construct your own list here, it will overwrite the example
 # !DO NOT! remove this if you don't need to replace anything, leave it empty as it is now
 REPLACE="
-/system/xbin/wg
-/system/xbin/wg-quick
 "
 
 ##########################################################################################
