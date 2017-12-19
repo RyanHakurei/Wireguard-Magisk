@@ -1,11 +1,5 @@
-# Magisk Module Template
+# WireGuard Magisk Installer
 
-For more information about modules and repos, please check the [official documentations](https://github.com/topjohnwu/Magisk/blob/master/docs/module_repo.md)
+[WireGuard](https://www.wireguard.com/) is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. Initially released for the Linux kernel, it plans to be cross-platform and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.
 
-### README.md
-
-This `README.md` can be shown in Magisk Manager. Place any information/changelog/notes you like.
-
-**Please update `README.md` if you want to submit your module to the online repo!**
-
-You can edit your `README.md` within Github's online editor, it also has an preview button! Check the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for markdown syntaxes, it's super easy!
+This module adds Wireguard support to ROMs that currently do not include support it (It adds wg and wg-quick to /system/xbin). You still need the [app](https://play.google.com/store/apps/details?id=com.wireguard.android) and prefferably a kernel with Wireguard support. The app is still in beta so expect bugs.
