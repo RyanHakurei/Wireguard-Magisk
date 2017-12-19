@@ -1,0 +1,7 @@
+id=WG
+name=Wireguard installer
+version=1.0
+versionCode=1
+author=Ryaniskira
+description=Installs Wireguard to any device.
+template=1400
